@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "message_histories",
+  "info": {
+    "singularName": "message-history",
+    "pluralName": "message-histories",
+    "displayName": "Message_History"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "message": {
+      "type": "text"
+    },
+    "uid": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}
